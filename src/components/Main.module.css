@@ -1,0 +1,45 @@
+.mainBlock {
+    width: 100%;
+    max-width: 600px;
+    background-color: brown;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.table { 
+    display: table;
+    border-spacing:1px;
+}
+
+.headlines{
+    background-color: brown;
+    display: table-header-group;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+.headlinesContainer{
+    width: 100%;
+    max-width: 600px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;   
+}
+
+.tableHeadCell{
+    display: table-cell;
+    padding: 10px;
+}
+
+.tableItem {
+    background-color: chartreuse;
+    display: table-row;
+}
+
+.tableCell {
+    padding: 10px;
+    display: table-cell;
+    overflow: hidden;
+}
+
+
